@@ -3,7 +3,7 @@ import { Search, MapPin, Calendar, Globe, ArrowRight, Users } from 'lucide-react
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-screen min-h-[850px] flex items-center overflow-hidden">
+    <section id="home" className="relative h-screen min-h-[800px] flex items-center overflow-hidden -mt-[92px]">
       {/* Background Image with Zoom Animation */}
       <div className="absolute inset-0 z-0 scale-110">
         <motion.img 
@@ -22,10 +22,10 @@ export default function Hero() {
         />
         {/* Cleaner, more vibrant overlay */}
         <div className="absolute inset-0 bg-slate-900/40 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-900/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/50" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full flex flex-col lg:flex-row gap-20 items-center justify-between">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full flex flex-col lg:flex-row gap-20 items-center justify-between pt-40 lg:pt-0">
         <div className="max-w-3xl lg:w-3/5">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -84,10 +84,11 @@ export default function Hero() {
                 </label>
                 <div className="relative">
                   <select className="w-full bg-slate-50 border border-slate-100 p-4 rounded-2xl text-sm font-bold text-slate-700 appearance-none outline-none focus:ring-4 focus:ring-brand-primary/10 transition-all shadow-inner">
-                    <option>Santorini, Greece</option>
-                    <option>Maldives Archipelago</option>
-                    <option>Swiss Alps, Switzerland</option>
-                    <option>Kyoto, Japan</option>
+                    <option>Ladakh (High Pass)</option>
+                    <option>Kerala Backwaters</option>
+                    <option>Rajasthan Heritage</option>
+                    <option>Goa Beaches</option>
+                    <option>Kashmir Valley</option>
                   </select>
                 </div>
               </div>

@@ -38,7 +38,7 @@ import { Instagram, Facebook } from 'lucide-react';
       {/* Social Floating Buttons */}
       <div className="fixed bottom-12 right-12 flex flex-col items-center gap-4 z-[100]">
         <a 
-          href="https://www.instagram.com/apnasafar" 
+          href="https://www.instagram.com/apna_._safar" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-14 h-14 bg-[#E4405F] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform"
@@ -46,7 +46,7 @@ import { Instagram, Facebook } from 'lucide-react';
           <Instagram className="w-7 h-7" />
         </a>
         <a 
-          href="https://www.facebook.com/apnasafar" 
+          href="https://www.facebook.com/profile.php?id=61590147085386" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-14 h-14 bg-[#1877F2] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform"

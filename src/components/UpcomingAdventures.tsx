@@ -9,7 +9,7 @@ const upcomingAdventures = [
     title: 'Kuari Pass',
     location: 'IIT Roorkee | Delhi NCR',
     duration: '4 Days / 3 Nights',
-    price: '₹4,699',
+    price: '₹7,500',
     lastDate: '26 May 2026',
     image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800',
     details: {
@@ -30,7 +30,7 @@ const upcomingAdventures = [
     title: 'Dharamsala with IPL',
     location: 'Delhi NCR | Roorkee',
     duration: '3 Days / 2 Nights',
-    price: '₹8,499',
+    price: '₹14,000',
     lastDate: '30 April 2026',
     image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=800',
     details: {
@@ -51,7 +51,7 @@ const upcomingAdventures = [
     title: 'Manali & Solang',
     location: 'Delhi | Chandigarh',
     duration: '4 Days / 3 Nights',
-    price: '₹6,999',
+    price: '₹11,500',
     lastDate: '15 May 2026',
     image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=800',
     details: {
@@ -72,7 +72,7 @@ const upcomingAdventures = [
     title: 'Kasol & Kheerganga',
     location: 'Delhi | Bhuntar',
     duration: '3 Days / 2 Nights',
-    price: '₹5,500',
+    price: '₹8,000',
     lastDate: '05 May 2026',
     image: 'https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800',
     details: {
@@ -93,7 +93,7 @@ const upcomingAdventures = [
     title: 'Kedarkantha Trek',
     location: 'Dehradun | Sankri',
     duration: '6 Days / 5 Nights',
-    price: '₹7,999',
+    price: '₹10,000',
     lastDate: '01 June 2026',
     image: 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&q=80&w=800',
     details: {
@@ -111,44 +111,44 @@ const upcomingAdventures = [
   },
   {
     id: 9,
-    title: 'Bali Getaway',
-    location: 'Delhi | Mumbai',
-    duration: '7 Days / 6 Nights',
-    price: '₹45,000',
+    title: 'Rajasthan Heritage',
+    location: 'Jaipur | Udaipur',
+    duration: '8 Days / 7 Nights',
+    price: '₹30,000',
     lastDate: '15 July 2026',
-    image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800',
     details: {
-      matchInfo: 'Island of Gods',
+      matchInfo: 'Royal Rajputana Journey',
       rating: 4.9,
       groupSize: '10-12 People',
       gallery: [
-        'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=400',
-        'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=400',
+        'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=400',
+        'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=400',
         'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=400'
       ],
-      included: ['4-Star Villa Stay', 'Daily Breakfast', 'Ubud & Kuta Tour', 'Airport Transfers'],
-      notIncluded: ['Flight tickets', 'Visa fees']
+      included: ['Luxury Heritage Stay', 'Desert Safari', 'Folk Performance', 'Private Tours'],
+      notIncluded: ['Personal Expenses', 'Medical Insurance']
     }
   },
   {
     id: 10,
-    title: 'Dubai Desert',
-    location: 'Global',
+    title: 'Rameshwaram (Tamil Nadu)',
+    location: 'Madurai | Rameshwaram',
     duration: '5 Days / 4 Nights',
-    price: '₹38,000',
+    price: '₹16,000',
     lastDate: '10 June 2026',
-    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&q=80&w=800',
     details: {
-      matchInfo: 'Luxury & Adventure',
-      rating: 4.7,
-      groupSize: '15-20 People',
+      matchInfo: 'Spiritual Southern Trail',
+      rating: 5.0,
+      groupSize: '12-15 People',
       gallery: [
-        'https://images.unsplash.com/photo-1546412414-803b8a92da51?auto=format&fit=crop&q=80&w=400',
-        'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=400',
-        'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=400'
+        'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&q=80&w=400',
+        'https://images.unsplash.com/photo-1542144611-13e9259a287c?auto=format&fit=crop&q=80&w=400',
+        'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&q=80&w=400'
       ],
-      included: ['Desert Safari', 'Burj Khalifa Access', 'Luxury Hotel Stay', 'Daily Tours'],
-      notIncluded: ['Flight tickets', 'Dinner on some days']
+      included: ['Pamban Bridge View', 'Ramanathaswamy Temple', 'Dhanushkodi Visit', 'Madurai Meenakshi Visit'],
+      notIncluded: ['Bike Fuel', 'Any personal riding gear']
     }
   }
 ];

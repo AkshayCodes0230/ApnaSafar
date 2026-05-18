@@ -136,10 +136,11 @@ export default function Contact() {
                     className="w-full px-6 py-4 bg-white rounded-2xl border border-black/5 focus:border-brand-primary outline-none transition-colors appearance-none"
                   >
                     <option value="">Select a location</option>
-                    <option>Bali, Indonesia</option>
-                    <option>Santorini, Greece</option>
-                    <option>Swiss Alps</option>
-                    <option>Kyoto, Japan</option>
+                    <option>Heritage Rajasthan</option>
+                    <option>Kerala Backwaters</option>
+                    <option>Kashmir Valley</option>
+                    <option>Goa Beach Bliss</option>
+                    <option>Leh Ladakh Trek</option>
                     <option>Ladakh, India</option>
                     <option>Kasol, India</option>
                   </select>

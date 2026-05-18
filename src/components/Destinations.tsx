@@ -7,107 +7,107 @@ const categories = ['All', 'Tropical', 'Cultural', 'Coastal', 'Romantic', 'Adven
 const destinations = [
   {
     id: 1,
-    title: 'Bali, Indonesia',
-    location: 'Southeast Asia',
-    price: '$1,299',
+    title: 'Munnar, Kerala',
+    location: 'Emerald Hills',
+    price: '₹14,500',
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1505144808419-1957a94ca61e?auto=format&fit=crop&q=80&w=800',
     tag: 'Tropical',
-    duration: '7 Days / 6 Nights',
-    groupSize: '8-12 People',
+    duration: '5 Days / 4 Nights',
+    groupSize: '4-8 People',
     details: {
-      included: ['Private Pool Villa', 'Balinese Massage', 'Ubud Day Tour', 'Daily Breakfast'],
-      notIncluded: ['International Flights', 'Travel Insurance']
+      included: ['Tea Garden Tour', 'Eravikulam National Park', 'Luxurious Resort Stay', 'Spices Plantation Visit'],
+      notIncluded: ['Airfare', 'Personal Expenses']
     }
   },
   {
     id: 2,
-    title: 'Santorini, Greece',
-    location: 'Mediterranean',
-    price: '$2,450',
+    title: 'Gulmarg, Kashmir',
+    location: 'Heaven on Earth',
+    price: '₹24,500',
     rating: 5.0,
-    image: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800',
-    tag: 'Romantic',
-    duration: '5 Days / 4 Nights',
-    groupSize: '2-4 People',
+    image: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&q=80&w=800',
+    tag: 'Adventure',
+    duration: '6 Days / 5 Nights',
+    groupSize: '2-6 People',
     details: {
-      included: ['Sunset Cruise', 'Wine Tasting Tour', 'Boutique Hotel', 'Luxury Transfers'],
-      notIncluded: ['Lunch & Dinner', 'Personal Expenses']
+      included: ['Gondola Ride (Phase 1 & 2)', 'Skiing Lessons', 'Srinagar Shikara Ride', 'Luxury Heritage Stay'],
+      notIncluded: ['Skiing Equipment Rental', 'Lunches']
     }
   },
   {
     id: 3,
-    title: 'Amalfi Coast, Italy',
-    location: 'Western Europe',
-    price: '$3,100',
+    title: 'Jaisalmer, Rajasthan',
+    location: 'The Golden City',
+    price: '₹12,000',
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800',
-    tag: 'Coastal',
-    duration: '6 Days / 5 Nights',
+    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=800',
+    tag: 'Cultural',
+    duration: '4 Days / 3 Nights',
     groupSize: '6-10 People',
     details: {
-      included: ['Positano Villa Stay', 'Boat Tour to Capri', 'Cooking Class', 'Private Driver'],
-      notIncluded: ['Airfare', 'Alcoholic Beverages']
+      included: ['Fort Palace Stay', 'Sam Sand Dunes Camping', 'Desert Safari', 'Folk Dance & Dinner'],
+      notIncluded: ['Monuments Entry Fees', 'Personal Shopping']
     }
   },
   {
     id: 4,
-    title: 'Kyoto, Japan',
-    location: 'East Asia',
-    price: '$2,800',
+    title: 'Alleppey, Kerala',
+    location: 'Venice of the East',
+    price: '₹14,000',
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800',
-    tag: 'Cultural',
-    duration: '8 Days / 7 Nights',
-    groupSize: '10-15 People',
+    image: 'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&q=80&w=800',
+    tag: 'Coastal',
+    duration: '4 Days / 3 Nights',
+    groupSize: '2-4 People',
     details: {
-      included: ['Ryokan Stay', 'Tea Ceremony', 'Bullet Train Passes', 'Local Heritage Guide'],
-      notIncluded: ['Visa Fees', 'Baggage Fees']
+      included: ['Luxury Houseboat Overnight', 'Paddy Field Walk', 'Traditional Sadya Lunch', 'Private Jetty Transfers'],
+      notIncluded: ['Alcoholic Beverages', 'Laundry Services']
     }
   },
   {
     id: 6,
-    title: 'Reykjavik, Iceland',
-    location: 'Northern Europe',
-    price: '$3,500',
-    rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&q=80&w=800',
+    title: 'Aizawl, Mizoram',
+    location: 'The Hilly Capital',
+    price: '₹20,000',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1506461883276-594a12b11cf3?auto=format&fit=crop&q=80&w=800',
     tag: 'Adventure',
-    duration: '6 Days / 5 Nights',
-    groupSize: '6-8 People',
+    duration: '5 Days / 4 Nights',
+    groupSize: '4-8 People',
     details: {
-      included: ['Northern Lights Tour', 'Blue Lagoon Access', 'Golden Circle Drive', 'Glacier Hike'],
-      notIncluded: ['Winter Gear Rental', 'Specialty Dinners']
+      included: ['Durtlang Hills Trek', 'Reiek Tlang Sunset', 'Mizo Heritage Village', 'Tam Dil Lake Visit'],
+      notIncluded: ['Internal Travel', 'Guide Tips']
     }
   },
   {
     id: 7,
-    title: 'Udaipur, India',
-    location: 'South Asia',
-    price: '$750',
+    title: 'Udaipur, Rajasthan',
+    location: 'City of Lakes',
+    price: '₹12,000',
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1543968332-f99478b1ebdc?auto=format&fit=crop&q=80&w=800',
     tag: 'Romantic',
     duration: '4 Days / 3 Nights',
     groupSize: '4-6 People',
     details: {
-      included: ['Lake Palace Stay', 'Boat Ride', 'Heritage Walk', 'Rajasthani Thali'],
+      included: ['Lake Palace Stay', 'Boat Ride on Lake Pichola', 'Heritage Walk', 'Rajasthani Thali'],
       notIncluded: ['Internal Flights', 'Alcohol']
     }
   },
   {
     id: 8,
-    title: 'Machu Picchu, Peru',
-    location: 'South America',
-    price: '$1,950',
-    rating: 5.0,
-    image: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&q=80&w=800',
-    tag: 'Adventure',
-    duration: '9 Days / 8 Nights',
-    groupSize: '10-14 People',
+    title: 'Daman & Diu',
+    location: 'Portuguese Heritage',
+    price: '₹13,000',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=800',
+    tag: 'Coastal',
+    duration: '4 Days / 3 Nights',
+    groupSize: '2-6 People',
     details: {
-      included: ['Inca Trail Hike', 'Train to Aguas Calientes', 'Pro Trekking Guide', 'Cusco Hotel'],
-      notIncluded: ['Hiking Equipment', 'International Airfare']
+      included: ['Moti Daman Fort', 'Jampore Beach Beachfront', 'St. Paul’s Church', 'Nagoa Beach Stay'],
+      notIncluded: ['Flight cost', 'Personal Shopping']
     }
   }
 ];
@@ -150,7 +150,7 @@ export default function Destinations() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
             <span className="text-brand-primary font-bold tracking-[0.2em] uppercase text-[10px] mb-4 block">
-              Global Collections
+              Indian Collections
             </span>
             <h2 className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tighter leading-[1.1]">
               Travel to the most <span className="italic font-serif font-light text-brand-primary">beautiful</span> corners

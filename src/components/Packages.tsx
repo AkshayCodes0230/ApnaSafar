@@ -4,32 +4,32 @@ import { Calendar, Users, Clock, CheckCircle2, ChevronRight } from 'lucide-react
 const packages = [
   {
     id: 1,
-    title: 'Alpine Wonders Retreat',
+    title: 'Himalayan Luxury Escape',
     duration: '8 Days, 7 Nights',
-    groupSize: 'Max 12 People',
-    highlights: ['Luxury Chalet Stay', 'Helicopter Glacier Tour', 'Private Ski Lessons'],
-    price: '$4,200',
-    image: 'https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=1200',
+    groupSize: 'Max 10 People',
+    highlights: ['Luxury Cottage Stay', 'Private Helicopter Tour', 'Gourmet Picnic in Meadow'],
+    price: '₹1,45,000',
+    image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200',
     isHot: true
   },
   {
     id: 2,
-    title: 'Serengeti Wildlife Safari',
+    title: 'Kerala Backwater Serenity',
     duration: '6 Days, 5 Nights',
     groupSize: 'Private Group',
-    highlights: ['5-Star Tented Camp', 'Hot Air Balloon Safari', 'Professional Guide'],
-    price: '$5,800',
-    image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=1200',
+    highlights: ['Premium Houseboat Stay', 'Ayurvedic Spa Retreat', 'Backwater Village Tour'],
+    price: '₹85,000',
+    image: 'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&q=80&w=1200',
     isHot: false
   },
   {
     id: 3,
-    title: 'Kyoto Heritage Journey',
+    title: 'Rajasthan Royal Expedition',
     duration: '10 Days, 9 Nights',
     groupSize: 'Max 8 People',
-    highlights: ['Traditional Ryokan Stay', 'Tea Ceremony Experience', 'Private Temple Access'],
-    price: '$3,950',
-    image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=1200',
+    highlights: ['Palace Hotel Stays', 'Exclusive Desert Camping', 'Private Heritage Walks'],
+    price: '₹2,10,000',
+    image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=1200',
     isHot: false
   }
 ];

@@ -3,22 +3,22 @@ import { Quote, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    text: "The trip to Bali was beyond my expectations. VentureLux handled every detail perfectly, from the private villas to the hidden temple tours. Truly a premium experience.",
-    author: "Alexandra Wright",
-    role: "CEO, TechFlow",
-    avatar: "https://i.pravatar.cc/150?u=a1"
+    text: "The trip to the Himalayas was beyond my expectations. Apna Safar handled every detail perfectly, from the luxury cottage stays to the private helicopter tours. Truly a premium experience.",
+    author: "Arjun Malhotra",
+    role: "Entrepreneur",
+    avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=150"
   },
   {
-    text: "I've traveled with many agencies, but the personalization here is unmatched. They really listened to our needs and crafted a safari that we'll never forget.",
-    author: "Marcus Sterling",
-    role: "Architect",
-    avatar: "https://i.pravatar.cc/150?u=a2"
+    text: "I've traveled with many agencies, but the personalization here is unmatched. They really listened to our needs and crafted a Kerala backwater retreat that we'll never forget.",
+    author: "Sneha Gupta",
+    role: "Design Consultant",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150"
   },
   {
-    text: "Seamless, professional, and luxurious. Their 24/7 support came in handy when we wanted to change our dinner plans last minute. Exceptional service!",
-    author: "Sarah Jenkins",
-    role: "Influencer",
-    avatar: "https://i.pravatar.cc/150?u=a3"
+    text: "The Rajasthan desert expedition was seamless, professional, and luxurious. Their 24/7 support came in handy when we wanted to change our itinerary last minute. Exceptional service!",
+    author: "Rohan Deshmukh",
+    role: "Business Owner",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
   }
 ];
 
